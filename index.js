@@ -17,7 +17,7 @@ app.get("/", function (req, res) {
 
 // 404 page route
 app.get("*", (req, res) => {
-  res.status(404).send("<h1>404 Page</h1>");
+  res.render("error404");
 });
 
 // Listen for connections
