@@ -1,24 +1,13 @@
 const router = require("express").Router();
+const places = require("../models/place.js");
 
 // GET /places
 router.get("/", (req, res) => {
-  let places = [
-    {
-      name: "Kirby Cafe",
-      city: "Tokyo",
-      state: "Japan",
-      cuisines: "Kirby Themed Cuisine",
-      pic: "/images/kirby.webp",
-    },
-    {
-      name: "Sheng Ramen",
-      city: "Charlotte",
-      state: "NC",
-      cuisines: "Ramen",
-      pic: "/images/ramen.jpg",
-    },
-  ];
   res.render("places/index", { places });
+});
+
+router.get("/new", (req, res) => {
+  res.render("places/new");
 });
 
 module.exports = router;
