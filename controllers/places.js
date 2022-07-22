@@ -11,7 +11,6 @@ router.get("/new", (req, res) => {
 });
 
 router.post("/", (req, res) => {
-  console.log(req.body);
   if (!req.body.pic) {
     // Default image if one is not provided
     req.body.pic = "https://pbs.twimg.com/media/E_3k99GVUAQt8PH.jpg";

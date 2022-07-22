@@ -1,5 +1,40 @@
 h1 {
     text-align: center;
-    color: lavender;
+    color: rgb(197, 197, 240);
 }
 
+body {
+    background-color: white;
+    text-align: center;
+}
+
+main {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+nav {
+    background-color: #FDFD96;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+nav a {
+    color: rgb(133, 195, 245);
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: rgb(250, 170, 250);
+    text-decoration: wavy;
+}
