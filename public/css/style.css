@@ -1,10 +1,10 @@
 h1 {
     text-align: center;
-    color: rgb(197, 197, 240);
+    color: #DCD0EA;
 }
 
 body {
-    background-color: white;
+    background-color: #B7D8E6;
     text-align: center;
 }
 
@@ -15,7 +15,7 @@ main {
 }
 
 nav {
-    background-color: #FDFD96;
+    background-color: #F6F1C9;
     padding: 10px;
 }
 
@@ -30,11 +30,11 @@ nav li {
 }
 
 nav a {
-    color: rgb(133, 195, 245);
+    color: cornflowerblue;
     font-size: 1.5em;
 }
 
 nav a:hover {
-    color: rgb(250, 170, 250);
+    color: #CEBED9;
     text-decoration: wavy;
 }
